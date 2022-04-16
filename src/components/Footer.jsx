@@ -6,8 +6,8 @@ function Footer() {
   return (
     <footer className='footer'>
       <div>
-        <div><b>Email: </b> Nourkami.e@gmail.com</div> 
-        <div><b>Phone Number: </b> 6475734711</div>
+        <div><b>Email: </b> Elahe@gmail.com</div> 
+        <div><b>Phone Number: </b> 657555555</div>
       </div>
       <small>copyright &copy; 2022. all rights reserved.</small>
       <div className='socail'>
