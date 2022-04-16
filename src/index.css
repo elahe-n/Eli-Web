@@ -62,12 +62,11 @@ a {
 }
 
 .logo{
-  margin: 3em ;
-  margin-right: 40em;
-  height: 90px;
-  width: auto;
-  border-radius: 25%;
+  border-radius: 50%;
   display: inline;
+  height: 200px;
+  margin: 9em 40em 3em 3em;
+  width: auto;
 }
 
 .navbarListItems {
@@ -141,7 +140,7 @@ p{
  article {
   max-width: 100ch;
   padding: 0 1rem;
-  margin: 1rem auto;
+  margin: 6rem auto 0  auto;
 }
 
 article section {
@@ -169,7 +168,7 @@ li{
 }
 
 .Skills{
-  margin: 0 4rem;
+  margin: 4rem 4rem 0 4rem;
   padding: 1rem;
   color: #333;
   font-size: 15px; 
@@ -309,7 +308,7 @@ li{
   padding: 0 4rem;
   display: grid;
   grid-template-columns: repeat(1,1fr);
-  margin: 4rem 12rem;
+  margin: 10rem 12rem 4rem  12rem;
   gap: 3rem;
   overflow: hidden;
 }
