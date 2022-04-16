@@ -7,11 +7,11 @@ import Media from '../assets/m4.svg'
 function Skill() {
   return (
     <div>
-       
+      
       <section id='Skills' className="Skills">
       
-        <ul className='skills-list'>
-
+       <ul className='skills-list'>
+         <div className='skill-strongTitle'>Let's review my skills...</div> 
           <div className='skills-list-item'>
             <div className='skill-title'>
               <div>

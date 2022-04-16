@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className='footer'>
       <div>
-        <div><b>Email: </b> Elahe@gmail.com</div> 
+        <div><b>Email: </b> info@eliweb.me</div> 
         <div><b>Phone Number: </b> 657555555</div>
       </div>
       <small>copyright &copy; 2022. all rights reserved.</small>

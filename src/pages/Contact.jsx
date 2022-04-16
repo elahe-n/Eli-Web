@@ -61,7 +61,9 @@ function Contact() {
     <>
     <section className='contact'>
         <form id="form" onSubmit={onSubmit}>   
-        <h2>Get In Touch</h2> 
+        <br/>
+        <h1>Get In Touch</h1> 
+        <br/>
         <div >     
             <input  type="text" placeholder="Your Name" id="name" value={name}  onChange={onMutate} minLength="2" required></input>
             <input  type="email" placeholder="Your Email" id="email" value={email}  onChange={onMutate} className='email'></input>
@@ -69,7 +71,9 @@ function Contact() {
             <textarea placeholder="Your message" id="message" value={message}  onChange={onMutate} minLength="3" required></textarea>
             <br/>
             <button type="submit" >Submit</button>
-        </form>  
+        </form> 
+        <br/>
+        <br/> 
      </section>
 
      </>

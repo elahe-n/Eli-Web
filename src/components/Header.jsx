@@ -47,7 +47,7 @@ function Header() {
                     : 'navbarListItemName'
                 }
               >
-                Examples of work
+                Work Samples
               </p>
             </li>
             <li className='navbarListItem' onClick={() => navigate('/contact')}>

@@ -14,7 +14,7 @@ import unsplash from '../assets/unsplash.png'
 function Example() {
   return (
     <div className='example-list'>
-
+      <div className='example-strongTitle'>Examples of my work...</div> 
       <div className='example-list-item'>
           <a href="https://car-marketplace100.netlify.app/" target="blank"> 
             <img className="example-img" src={car} alt="Car Market Place" />
@@ -25,7 +25,6 @@ function Example() {
             <p>This site has been developed and designed with HTML, CSS, Java Script, and React. <br/>The Data of the cars and users are being stored in Firebase database.<br/> It has login and profile page. Users can create account or login with their google account.<br/>
             Users can make, change or delete listings. </p>
           </div>
-          
       </div>
 
       <div className='example-list-item' data-aos='fade-left' > 

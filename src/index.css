@@ -41,6 +41,17 @@ a {
   color: #2a2a2a;
 }
 
+.skill-strongTitle{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.example-strongTitle{
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
 .navbar {
   position: relative;
   left: 0;
@@ -128,7 +139,7 @@ p{
   font-size: 12px;
   border-radius: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  margin-top:3rem;
+  margin-top:2rem;
   background-color: #f1f1f1;
   padding: 2rem;
  }
@@ -140,7 +151,7 @@ p{
  article {
   max-width: 100ch;
   padding: 0 1rem;
-  margin: 6rem auto 0  auto;
+  margin: 6rem auto 8rem  auto;
 }
 
 article section {
@@ -322,6 +333,8 @@ li{
   padding: 2rem 2rem 1rem 2rem;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   border-radius: 10px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 .example-list-item:hover{
@@ -538,6 +551,7 @@ button:active{
     color: #333;
     font-size: 12px;
     margin-top:1rem;
+    margin-bottom: 1rem;
     background-color: #f1f1f1;
     padding: 1rem;
    }
@@ -545,7 +559,7 @@ button:active{
    article {
     max-width: 70ch;
     padding: 0 0.5rem;
-    margin: 6rem 0.25rem 1rem  0.25rem;
+    margin: 4rem 1rem 3rem  1rem;
     text-align: justify;
   }
 
@@ -688,7 +702,7 @@ button:active{
     max-width: 500px;
     padding: 0 1rem;
     grid-template-columns: repeat(1,1fr);
-    margin: 9rem 1rem 2rem  1rem;
+    margin: 4rem 1rem 2rem  1rem;
     gap: 1.5rem;
   }
   
@@ -696,6 +710,8 @@ button:active{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     padding: 1rem 1rem 0.5rem 1rem;
+    margin-bottom: 1rem;
+    
   }
   
   .example-img{
@@ -778,6 +794,18 @@ button:active{
 
 .contact{
   height: 550px;
+}
+
+.skill-strongTitle{
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.example-strongTitle{
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 0.5rem;
 }
 
 }

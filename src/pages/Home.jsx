@@ -5,16 +5,14 @@ import Contact from './Contact'
 import Education from '../assets/e2.svg'
 import Work from '../assets/w5.svg'
 
-
-
 function Home() {
   return (
     <div className='home'>
     <article>
     <img className="pic" src={pic} alt="Elahe Nourkami" />
     <div className='about'>
-      <p><h1 className='hi'>Hi</h1>, I'm Elahe, a Web Developer and Designer. <br/>I enjoy designing and developing web sites and applications. <br/>
-      I'm flexible and enthusiastic to learning new things. I'm also adaptive to change and new ways of working quickly and easily</p>
+      <div><h1 className='hi'>Hi</h1>, I'm Elahe, a Web Developer and Designer. <br/>I enjoy designing and developing web sites and applications. <br/>
+      I'm flexible and enthusiastic to learning new things. I'm also adaptive to change and new ways of working quickly and easily</div>
       <a href={Resume} download='Elahe-Nourkami-Resume'><button type="submit">Download my resume</button></a>
     </div>
     <br/>
@@ -49,7 +47,7 @@ function Home() {
                 </div> 
 
       </section>
- 
+      <br/>
       <section id="Experience" className="Experience" data-aos='fade-right'>
           <div className='home-title'>
                 <div> <img className="skill-logo" src={Work} alt="work" /> </div>
@@ -85,12 +83,6 @@ function Home() {
       </article>
       {/* <Skill  data-aos='fade-left'/> */}
 
-      <br/>
-      <br/>
-      <Contact data-aos='fade-left'/>
-
-      <br/>
-      <br/>
       
  </div>
  
