@@ -238,11 +238,6 @@ li{
   flex-grow: 1;
 }
 
-.container{
-  width: 100%;
-  margin-right: 12rem;
-}
-
 .candidatos{
   position: relative;
   margin-bottom: 15px;
@@ -447,11 +442,17 @@ button:active{
 
 @media (max-width: 600px) {
 
+  html{
+    margin:0;
+    padding: 0;
+  }
 
   body {
   
       line-height: 1.5em;
       font-size: 0.75rem;
+      margin:0;
+      padding: 0;
   }
   
   a {
@@ -469,9 +470,10 @@ button:active{
     background-color: #393939;
     z-index: 1000;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     font-family: 'Cormorant Unicase', serif;
+    width: 100%;
   }
   
   .navbarNav {
@@ -479,28 +481,17 @@ button:active{
     margin-top: 0.75rem;
   }
   
-  .logo{
-    border-radius: 50%;
-    display: inline;
-    height: 80px;
-    margin: 5em 0.5em 0.5em 0.5em;
-    width: auto;
-  }
-  
   .navbarListItems {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content:space-around;
-    gap:0.5rem;
-    padding-right: 1rem;
+    justify-content:space-between;
+    gap:0.25rem;
+    padding-right: 0.5rem;
   }
   
   .navbarListItem {
     cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   
   .navbarListItemName,
@@ -512,6 +503,14 @@ button:active{
   }
   .navbarListItemNameActive {
     color:#ffffff;
+  }
+
+  .logo{
+    border-radius: 50%;
+    display: inline;
+    height: 75px;
+    margin: 6em 0.5em 0.5em 0.5em;
+    width: auto;
   }
   
   .pic{
@@ -579,8 +578,8 @@ button:active{
   
   
   .Skills{
-    margin: 2rem 0;
-    padding: 1rem;
+    margin: 2rem auto;
+    padding: 0;
     color: #333;
     font-size: 15px; 
   }
@@ -590,7 +589,9 @@ button:active{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap:0rem;
-    margin:2rem 0 1rem 3rem;
+    justify-content: space-around;
+    justify-items: center;
+    margin:2rem 0;
   }
   
   .skills-list-item{
@@ -625,14 +626,12 @@ button:active{
     flex-grow: 1;
   }
   
-  .container{
-    width: 100%;
-    margin-right: 12rem;
-  }
   
   .candidatos{
     position: relative;
     margin-bottom: 15px;
+    width: 100%;
+    margin-right: 12rem;
   }
   
   .parcial{
@@ -649,7 +648,7 @@ button:active{
     position: absolute;
     top:0;
     left:0;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 600;
     opacity: 0.9;
   }
@@ -658,7 +657,7 @@ button:active{
     position: absolute;
     top:0;
     right:0;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 600;
   }
   
@@ -778,7 +777,7 @@ button:active{
 }
 
 .contact{
-  height: 515px;
+  height: 550px;
 }
 
 }

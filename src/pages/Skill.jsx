@@ -182,7 +182,6 @@ function Skill() {
                 </div>
               </div>
               <div className='mh-skills' id="mh-skills"> 
-                <div className='container'>
                      <div className="candidatos">
                        <div className="parcial">
                          <div className="info">
@@ -206,7 +205,7 @@ function Skill() {
                          </div>
                        </div>
                      </div>    
-        </div>
+  
       </div> 
           </div>
 

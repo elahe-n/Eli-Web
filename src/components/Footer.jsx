@@ -11,8 +11,8 @@ function Footer() {
       </div>
       <small>copyright &copy; 2022. all rights reserved.</small>
       <div className='socail'>
-        <a href='https://www.linkedin.com/in/elahe-n-943a2a181/' target='_blank'><img className="socialLogo" src={linkedin} alt="Linkedin" /></a>
-        <a href='https://www.facebook.com/elahe.nourkami'target='_blank'><img className="socialLogo" src={facebook} alt="facebook" /></a>      
+        <a href='https://www.linkedin.com/in/elahe-n-943a2a181/' target='blank'><img className="socialLogo" src={linkedin} alt="Linkedin" /></a>
+        <a href='https://www.facebook.com/elahe.nourkami'target='blank'><img className="socialLogo" src={facebook} alt="facebook" /></a>      
       </div>
     </footer>
   )
