@@ -167,6 +167,23 @@ li{
   font-size: 17px;
 }
 
+.home-title{
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  font-size: 15px;
+}
+
+.home-item{
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-top: 1rem;
+}
+
 .Skills{
   margin: 4rem 4rem 0 4rem;
   padding: 1rem;
@@ -208,27 +225,11 @@ li{
   font-size: 15px;
 }
 
-.home-title{
-  display: flex;
-  justify-content: flex-start;
-  gap: 2rem;
-  align-items: center;
-  font-size: 15px;
-}
-
-.home-item{
-  display: flex;
-  justify-content: flex-start;
-  gap: 2rem;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding-top: 1rem;
-}
-
 .skill-logo{
   height: 100px;
   width: auto;
 }
+
 .mh-skills{
   flex-grow: 1;
 }
@@ -442,17 +443,338 @@ button:active{
 
 @media (max-width: 600px) {
 
-  .example-list{
-    padding: 0 1rem;
-    margin: 1rem 1rem;
-    gap: 1rem;
-    overflow: hidden;
+
+  body {
+  
+      line-height: 1.5em;
+      font-size: 0.75rem;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+    color: #2a2a2a;
+  }
+  
+  .navbar {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    background-color: #393939;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cormorant Unicase', serif;
+  }
+  
+  .navbarNav {
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+  
+  .logo{
+    border-radius: 50%;
+    display: inline;
+    height: 80px;
+    margin: 5em 0.5em 0.5em 0.5em;
+    width: auto;
+  }
+  
+  .navbarListItems {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    gap:0.5rem;
+    padding-right: 1rem;
+  }
+  
+  .navbarListItem {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbarListItemName,
+  .navbarListItemNameActive {
+    margin-top: 0.25rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #d2cfcf;
+  }
+  .navbarListItemNameActive {
+    color:#ffffff;
+  }
+  
+  .pic{
+   height: 90px;
+   border-radius: 50px;
+   /* border: #d1cfcf 5px solid; */
+   outline: #4d4c4c 5px solid;
+   stroke: none;
+   padding: 4px;
+   margin:10px;
+  }
+  
+  .about{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: space-between;
   }
 
+  .hi{
+    font-size: 16px;
+  }
+  
+  .Experience{
+    color: #333;
+    font-size: 12px;
+    margin-top:1rem;
+    background-color: #f1f1f1;
+    padding: 1rem;
+   }
+  
+   article {
+    max-width: 70ch;
+    padding: 0 1rem;
+    margin: 6rem 0.5rem 1rem  0.5rem;
+    text-align: justify;
+  }
+
+  .bold{
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .strong{
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .home-title{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  .home-item{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+  }
+  
+  
+  .Skills{
+    margin: 2rem 0;
+    padding: 1rem;
+    color: #333;
+    font-size: 15px; 
+  }
+  
+  .skills-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:0rem;
+    margin:2rem 0 1rem 3rem;
+  }
+  
+  .skills-list-item{
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding:2rem 1rem;
+    margin:1rem 0;
+    align-items: center;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    justify-content:flex-start;
+    display: flex;
+    gap:2rem;
+    align-items: center;
+  }
+  
+  .skill-title{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  .skill-logo{
+    height: 60px;
+    width: auto;
+  }
+
+  .mh-skills{
+    flex-grow: 1;
+  }
+  
+  .container{
+    width: 100%;
+    margin-right: 12rem;
+  }
+  
+  .candidatos{
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .parcial{
+    display:inline-block;
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .info{
+    position: relative;
+  }
+  
+   .name{
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.9;
+  }
+  
+  .percentage-num{
+    position: absolute;
+    top:0;
+    right:0;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .progressBar{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+   background-color: #a5a3a3;
+  }
+  
+  .percentagem {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #1db79d;
+    animation: animate 4s forwards;
+  }
+  
+  
+  .example-list{
+    max-width: 500px;
+    padding: 0 1rem;
+    grid-template-columns: repeat(1,1fr);
+    margin: 9rem 1rem 2rem  1rem;
+    gap: 1.5rem;
+  }
+  
   .example-list-item{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    grid-gap:1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
   }
+  
+  .example-img{
+    height: 120px;
+  }
+  
+  .example-list-item:nth-child(even) a {
+  order:2;
+  }
+  
+  .example-list-item > div {
+    padding: 1rem 1rem ;
+  }
+  
+  .example-img:hover{
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out,transform 0.5s ease-in-out;
+    transform: scale(1.08) ;
+  }
+  
+  .footer {
+    height: 50px;
+    padding: 0 2rem;
+    font-size: 8px;
+    margin-top: 5px;
+  }
+  
+  .socialLogo{
+    height:15px;
+  }
+  
+  .socialLogo:hover{
+    opacity: 0.7;
+  }
+  
+  form {
+    padding-top:1rem;
+    margin: 1rem 0;
+  }
+  
+  input {
+    font-size: 10px;
+    padding:3px 2px;
+    margin: 7px 3px;
+    height: 20px;
+    width: 25%;
+  }
+
+  .email{
+    width: 40%;
+  }
+  
+  textarea {
+    font-size:10px;
+    height: 100px;
+    width: 250px;
+    margin: 7px 5px;
+    padding:5px;
+  }
+  
+  button {
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  p{
+    font-size: 13px;
+  }
+  
+  .text{
+    font-size: 13px; 
+  }
+  
+  ul{ 
+    margin: 0;
+    padding: 0;
+}
+
+.contact{
+  height: 515px;
+}
 
 }

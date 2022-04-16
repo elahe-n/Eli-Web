@@ -7,7 +7,7 @@ import Work from '../assets/w5.svg'
 
 
 
-function home() {
+function Home() {
   return (
     <div className='home'>
     <article>
@@ -97,4 +97,4 @@ function home() {
   )
 }
 
-export default home
+export default Home

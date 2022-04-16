@@ -4,7 +4,7 @@ import Develop from '../assets/d5.svg'
 import Prototype from '../assets/p1.svg'
 import Media from '../assets/m4.svg'
 
-function Example() {
+function Skill() {
   return (
     <div>
        
@@ -266,4 +266,4 @@ function Example() {
   )
 }
 
-export default Example
+export default Skill
