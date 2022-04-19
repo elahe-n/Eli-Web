@@ -26,7 +26,7 @@ function Skill() {
                      <div className="candidatos">
                        <div className="parcial">
                          <div className="info">
-                           <div className="name">HTML</div>
+                           <div className="name">HTML/CSS</div>
                            <div className="percentage-num">90%</div>
                          </div>
                          <div className="progressBar">
@@ -38,23 +38,11 @@ function Skill() {
                      <div className="candidatos">
                        <div className="parcial">
                          <div className="info">
-                           <div className="name">CSS</div>
-                           <div className="percentage-num">85%</div>
-                         </div>
-                         <div className="progressBar">
-                           <div className="percentagem" style={{width:"85%"}}></div>
-                         </div>
-                       </div>
-                     </div>
-
-                     <div className="candidatos">
-                       <div className="parcial">
-                         <div className="info">
                            <div className="name">Java Script</div>
                            <div className="percentage-num">80%</div>
                          </div>
                          <div className="progressBar">
-                           <div className="percentagem" style={{width:"86%"}}></div>
+                           <div className="percentagem" style={{width:"80%"}}></div>
                          </div>
                        </div>
                      </div>
@@ -63,10 +51,10 @@ function Skill() {
                        <div className="parcial">
                          <div className="info">
                            <div className="name">React</div>
-                           <div className="percentage-num">50%</div>
+                           <div className="percentage-num">60%</div>
                          </div>
                          <div className="progressBar">
-                           <div className="percentagem" style={{width:"50%"}}></div>
+                           <div className="percentagem" style={{width:"60%"}}></div>
                          </div>
                        </div>
                      </div>      
@@ -86,11 +74,11 @@ function Skill() {
                      <div className="candidatos">
                        <div className="parcial">
                          <div className="info">
-                           <div className="name">Eleventy, Next js</div>
+                           <div className="name">Eleventy/Next js</div>
                            <div className="percentage-num">87%</div>
                          </div>
                          <div className="progressBar">
-                           <div className="percentagem" style={{width:"90%"}}></div>
+                           <div className="percentagem" style={{width:"87%"}}></div>
                          </div>
                        </div>
                      </div>
@@ -98,8 +86,8 @@ function Skill() {
                      <div className="candidatos">
                        <div className="parcial">
                          <div className="info">
-                           <div className="name">EJS, NUNJUCKS, Handelbars</div>
-                           <div className="percentage-num">87%</div>
+                           <div className="name">EJS/NUNJUCKS/Handelbars</div>
+                           <div className="percentage-num">90%</div>
                          </div>
                          <div className="progressBar">
                            <div className="percentagem" style={{width:"90%"}}></div>

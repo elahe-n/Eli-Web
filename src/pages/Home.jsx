@@ -12,7 +12,7 @@ function Home() {
     <img className="pic" src={pic} alt="Elahe Nourkami" />
     <div className='about'>
       <div><h1 className='hi'>Hi</h1>, I'm Elahe, a Web Developer and Designer. <br/>I enjoy designing and developing web sites and applications. <br/>
-      I'm flexible and enthusiastic to learning new things. I'm also adaptive to change and new ways of working quickly and easily</div>
+      I'm flexible and enthusiastic to learning new things. I'm also adaptive to change and new ways of working.</div>
       <a href={Resume} download='Elahe-Nourkami-Resume'><button type="submit">Download my resume</button></a>
     </div>
     <br/>
