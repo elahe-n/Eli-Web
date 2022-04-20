@@ -9,13 +9,26 @@ import music from '../assets/music.png'
 import nasa from '../assets/nasa.png'
 import quote from '../assets/quote.png'
 import unsplash from '../assets/unsplash.png'
-
+import recipe from '../assets/recipe.png'
 
 function Example() {
   return (
     <div className='example-list'>
       <div className='example-strongTitle'>Examples of my work...</div> 
+
       <div className='example-list-item'>
+          <a href="https://recipe1.vercel.app/" target="blank"> 
+            <img className="example-img" src={recipe} alt="Recipe App" />
+          </a>
+          <div>
+          <a href="https://recipe1.vercel.app/" target="blank"> 
+            <h3>Recipe App</h3></a>
+            <p>This site has been developed and designed with HTML, CSS, Java Script, and React. <br/>The Data of the recipes are being stored in local storage.<br/>The app gets recipes information from an API.
+             </p>
+          </div>
+      </div>
+
+      <div className='example-list-item' data-aos='fade-right'>
           <a href="https://car-marketplace100.netlify.app/" target="blank"> 
             <img className="example-img" src={car} alt="Car Market Place" />
           </a>
